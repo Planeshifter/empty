@@ -1,0 +1,37 @@
+{
+	"name": "Clinical Care Diabetic Patient Records",
+	"info": [
+		"All the encounters/visits for a sample of 20,000 unique patients from the diabetic clinical care study in ",
+		"",
+		"Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, John N. Clore. *Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records*, BioMed Research International, Vol 2014, Article ID 781670. <a target=\"_blank\" href=\"https://isle.heinz.cmu.edu/optumai-execed_ReadmissionRatesStrackEtAl.pdf\">Open Article</a>."
+	],
+	"variables": {
+		"encounter_id": "Unique identifier of an encounter",
+		"patient_nbr": "Unique identifier of a patient",
+		"race": "Values: Caucasian, Asian, African American, Hispanic, and other",
+		"gender": "Values: male, female",
+		"age": "Age grouped in 10-year intervals: [0, 10), [10, 20), …, [90, 100)",
+		"weight": "Weight grouped in 25-pound intervals: [0, 25), [25, 50), …",
+		"admission_type_id": "Integer identifier corresponding to categories, for example, emergency, urgent, elective, newborn, and not available",
+		"discharge_disposition_id": "Integer identifier corresponding to categories, for example, discharged to home, expired, and not available",
+		"admission_source_id": "Integer identifier corresponding to categories, for example, physician referral, emergency room, and transfer from a hospital",
+		"time_in_hospital": "Integer number of days between admission and discharge",
+		"payer_code": "Integer identifier corresponding to categories, for example, Blue Cross/Blue Shield, Medicare, and self-pay",
+		"medical_specialty": "Integer identifier of a specialty of the admitting physician, corresponding to distinct categories, for example, cardiology, internal medicine, family/general practice, and surgeon",
+		"num_lab_procedures": "Number of lab tests performed during the encounter",
+		"num_procedures": "Number of procedures (other than lab tests) performed during the encounter",
+		"num_medications": "Number of distinct generic names administered during the encounter",
+		"num_outpatient": "Number of outpatient visits of the patient in the year preceding the encounter",
+		"num_emergency": "Number of emergency visits of the patient in the year preceding the encounter",
+		"num_inpatient": "Number of inpatient visits of the patient in the year preceding the encounter",
+		"diag_1": "The primary diagnosis (coded as first three digits of ICD9)",
+		"diag_2": "Secondary diagnosis (coded as first three digits of ICD9)",
+		"diag_3": "Additional secondary diagnosis (coded as first three digits of ICD9)",
+		"num_diagnoses": "Number of diagnoses entered to the system",
+		"max_glu_serum": "Indicates the range of the result or if the test was not taken. Values: '>200', '>300', 'normal' and 'none' if not measured",
+		"A1Cresult": "Indicates the range of the result or if the test was not taken. Values: '>8' if the result was greater than 8%, '>7' if the result was greater than 7% but less than 8%, 'normal' if the result was less than 7% and 'none' if not measured",
+		"change": "Indicates if there was a change in diabetic medications (either dosage or generic name). Values: “change” and “no change”",
+		"diabetesMed": "Indicates if there was any diabetic medication prescribed. Values: “yes” and “no”",
+		"readmitted": "Days to inpatient readmission. Values: “<30” if the patient was readmitted in less than 30 days, “>30” if the patient was readmitted in more than 30 days, and “No” for no record of readmission."
+	}
+}
