@@ -1,0 +1,22 @@
+{
+	"name": "Administration Data",
+	"info": [
+		"Data from the hospital administration"
+	],
+	"variables": {
+		"name": "First and last name",
+		"email": "Email address",
+		"phone": "Phone number (format: xxx-xxx-xxxx)",
+		"race": "Values: Caucasian, Asian, African American, Hispanic, and other",
+		"gender": "Values: male, female",
+		"age": "Age grouped in 10-year intervals: [0, 10), [10, 20), …, [90, 100)",
+		"payer_code": "Integer identifier corresponding to categories, for example, Blue Cross/Blue Shield, Medicare, and self-pay",
+		"num_outpatient": "Number of outpatient visits of the patient in the year preceding the encounter",
+		"num_emergency": "Number of emergency visits of the patient in the year preceding the encounter",
+		"num_inpatient": "Number of inpatient visits of the patient in the year preceding the encounter",
+		"diag_1": "The primary diagnosis (coded as first three digits of ICD9)",
+		"diag_2": "Secondary diagnosis (coded as first three digits of ICD9)",
+		"diag_3": "Additional secondary diagnosis (coded as first three digits of ICD9)",
+		"num_diagnoses": "Number of diagnoses entered to the system"
+	}
+}
