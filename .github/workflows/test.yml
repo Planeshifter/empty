@@ -1,0 +1,45 @@
+name: Pass Tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  utils-property-symbols:
+   runs-on: ubuntu-latest
+   steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
+     with:
+       repository: stdlib-js/utils-property-symbols
+       path: utils-property-symbols
+   - name: Install dependencies
+     run: |
+       cd utils-property-symbols
+       npm install
+       npm test
+  utils-noop:
+   runs-on: ubuntu-latest
+   steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
+     with:
+       repository: stdlib-js/utils-noop
+       path: utils-noop
+   - name: Install dependencies
+     run: |
+       cd utils-noop
+       npm install
+       npm test
+  utils-next-tick:
+   runs-on: ubuntu-latest
+   steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
+     with:
+       repository: stdlib-js/utils-next-tick
+       path: utils-next-tick
+   - name: Install dependencies
+     run: |
+       cd utils-next-tick
+       npm install
+       npm test
