@@ -17,33 +17,13 @@ body:
     attributes:
       label: Related Issues
       description: Does this feature request have any related issues?
-      placeholder: Related issues # , # , and # .
+      value: Related issues # , # , and # .
   - type: textarea
     id: questions
     attributes:
       label: Questions
       description: Any questions for reviewers?
       value: No.
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: input
     id: demo
     attributes:
@@ -53,7 +33,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: logs
+    id: reproduction
     attributes:
       label: Reproduction
       description: What steps are required to reproduce the unexpected output?
@@ -75,7 +55,23 @@ body:
       label: Actual Results
       description: What are the actual results?
       placeholder: Insert actual results here
-      render: shell 
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of `stdlib` are you running?
+  - type: textarea
+    id: environments
+    attributes:
+      label: Environments
+      description: What environments are affected (e.g., `Node v0.4.x`, `Chrome`, `IE 11`)? If Node.js, include the `npm` version, operating system, and any other potentially relevant platform information.
+      value: | 
+        The following environments are affected:
+        
+        -   a
+        -   b 
+        -   c
   - type: checkboxes
     id: checklist
     attributes:
