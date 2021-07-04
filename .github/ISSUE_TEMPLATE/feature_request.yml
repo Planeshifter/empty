@@ -30,9 +30,9 @@ body:
       description: Any other information relevant to this feature request? This may include screenshots, references, sample output, and/or implementation notes.
       value: No.
   - type: checkboxes
-    id: terms
+    id: checklist
     attributes:
-      label: Checkboxes
+      label: Checklist
       description: Please ensure the following tasks are completed before submitting a feature request.
       options:
         - label: I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
