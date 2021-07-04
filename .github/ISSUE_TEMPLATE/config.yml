@@ -1,8 +1,7 @@
 contact_links:
   - name: 💬 Question
     url:  https://gitter.im/stdlib-js/stdlib
-    about: |
-      Got a question? Ask us on Gitter! 🤗
+    about: Got a question? Ask us on Gitter! 🤗
   - name: Frequently Asked Questions
     url:  https://github.com/stdlib-js/stdlib/blob/develop/FAQ.md
     about: Be sure to consult the FAQ in case we have already answered your question there.
