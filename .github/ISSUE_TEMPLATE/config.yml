@@ -5,7 +5,7 @@ contact_links:
       Got a question? Ask us on Gitter! 🤗
   - name: Frequently Asked Questions
     url:  https://github.com/stdlib-js/stdlib/blob/develop/FAQ.md
-    about: Also be sure to consult the FAQ in case we have already answered your question there.
+    about: Be sure to consult the FAQ in case we have already answered your question there.
   - name: 👏 Support Us
     url: https://github.com/stdlib-js/stdlib/blob/develop/.github/ISSUE_TEMPLATE/support_the_project.md
     about: Want to help support the project? 😍
