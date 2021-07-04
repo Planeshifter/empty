@@ -5,18 +5,6 @@ labels: [bug, triage]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: demo
-    attributes:
-      label: Demo
-      description: If relevant, provide a link to a live demo.
-      placeholder: For a live demo of the issue, see 
-    validations:
-      required: false
   - type: textarea
     id: description
     attributes:
@@ -25,6 +13,18 @@ body:
       value: "Encountered an error when "
     validations:
       required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related Issues
+      description: Does this feature request have any related issues?
+      placeholder: Related issues \# , \# , and \# .
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions
+      description: Any questions for reviewers?
+      value: No.
   - type: dropdown
     id: version
     attributes:
@@ -45,6 +45,14 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: input
+    id: demo
+    attributes:
+      label: Demo
+      description: If relevant, provide a link to a live demo.
+      placeholder: For a live demo of the issue, see 
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
@@ -55,6 +63,20 @@ body:
         - b
         - c
       render: shell
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Results
+      description: What are the expected results?
+      placeholder: Insert expected results here
+      render: shell
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Results
+      description: What are the actual results?
+      placeholder: Insert actual results here
+      render: shell 
   - type: checkboxes
     id: checklist
     attributes:
