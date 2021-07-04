@@ -1,7 +1,6 @@
 name: 🐛 Bug Report
 description: Something isn't working as I expected. 🤔
-title: "[Bug]: "
-labels: [bug, triage]
+labels: [bug]
 assignees:
   - octocat
 body:
@@ -18,7 +17,7 @@ body:
     attributes:
       label: Related Issues
       description: Does this feature request have any related issues?
-      placeholder: Related issues \# , \# , and \# .
+      placeholder: Related issues # , # , and # .
   - type: textarea
     id: questions
     attributes:
