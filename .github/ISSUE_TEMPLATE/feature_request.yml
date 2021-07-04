@@ -11,8 +11,8 @@ body:
       value: This RFC proposes
     validations:
       required: true
-  - type: input
-    id: prevalence
+  - type: textarea
+    id: related
     attributes:
       label: Related Issues
       description: Does this feature request have any related issues?
