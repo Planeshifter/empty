@@ -1,0 +1,7 @@
+contact_links:
+  - name: 💬 Question
+    url:  https://gitter.im/stdlib-js/stdlib
+    about: |
+      Got a question? Ask us on Gitter! 🤗
+      Please ask and answer questions on our [Gitter](https://gitter.im/stdlib-js/stdlib) channel.
+      Also be sure to consult the [FAQ](https://github.com/stdlib-js/stdlib/blob/develop/FAQ.md) in case we have already answered your question there.
