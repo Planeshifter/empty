@@ -11,23 +11,23 @@ body:
       value: This RFC proposes
     validations:
       required: true
-  -  type: input
-     id: prevalence
-     attributes:
-       label: Related Issues
-       description: Does this feature request have any related issues?
-       value: Related issues # , # , and # .
+  - type: input
+    id: prevalence
+    attributes:
+      label: Related Issues
+      description: Does this feature request have any related issues?
+      value: Related issues # , # , and # .
   - type: textarea
     id: questions
     attributes:
       label: Questions
       description: Any questions for reviewers?
       value: No.
-   - type: textarea
-     id: other
-     attributes:
-       label: Other
-       description: Any other information relevant to this feature request? This may include screenshots, references, sample output, and/or implementation notes.
+  - type: textarea
+    id: other
+    attributes:
+      label: Other
+      description: Any other information relevant to this feature request? This may include screenshots, references, sample output, and/or implementation notes.
       value: No.
   - type: checkboxes
     id: terms
