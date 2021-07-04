@@ -16,7 +16,7 @@ body:
     attributes:
       label: Related Issues
       description: Does this feature request have any related issues?
-      placeholder: Related issues # , # , and # .
+      value: "Related issues # , # , and # ."
   - type: textarea
     id: questions
     attributes:
