@@ -79,12 +79,12 @@ body:
   - type: input
     id: browser-version
     attributes:
-      label: Browser Version 
+      label: "## Browser Version"
       description: If applicable, what browser version(s)?
   - type: input
     id: node-version
     attributes:
-      label: Node.js / npm Version
+      label: "### Node.js / npm Version"
       description: If applicable, what Node.js / npm version(s)?
   - type: input
     id: platform
