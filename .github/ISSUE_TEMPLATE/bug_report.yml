@@ -77,19 +77,22 @@ body:
     validations:
       required: true
   - type: markdown
-    value: "### Browser Version" 
+    attributes:
+      value: "### Browser Version" 
   - type: input
     id: browser-version
     attributes:
       description: If applicable, what browser version(s)?
   - type: markdown
-    value: "### Node.js / npm Version" 
+    attributes:
+      value: "### Node.js / npm Version" 
   - type: input
     id: node-version
     attributes:
       description: If applicable, what Node.js / npm version(s)?
   - type: markdown
-    value: "### Platform" 
+    attributes: 
+      value: "### Platform" 
   - type: input
     id: platform
     attributes:
