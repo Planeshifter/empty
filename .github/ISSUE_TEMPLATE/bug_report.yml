@@ -65,17 +65,28 @@ body:
       label: What environments are affected?
       multiple: true
       options:
+        - N/A
         - Node.js
         - Firefox
         - Chrome
         - Safari
         - Microsoft Edge
-        - N/A
-      placeholder: N/A
+        - Internet Explorer
+        - Other Browser
+    validations:
+      required: true
   - type: input
-    id: environment-version
+    id: browser-version
     attributes:
-      label: What environment version(s)?
+      label: If applicable, what browser version(s)?
+  - type: input
+    id: node-version
+    attributes:
+      label: If applicable, what Node.js / npm version(s)?
+  - type: input
+    id: platform
+    attributes:
+      label: If applicable, what operating system(s)?
   - type: checkboxes
     id: checklist
     attributes:
