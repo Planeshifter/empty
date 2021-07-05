@@ -63,7 +63,7 @@ body:
     id: environments
     attributes:
       label: Environments
-      descriptions: What environments are affected?
+      description: What environments are affected?
       multiple: true
       options:
         - N/A
