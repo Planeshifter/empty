@@ -71,7 +71,7 @@ body:
         - Safari
         - Microsoft Edge
         - N/A
-      value: N/A
+      placeholder: N/A
   - type: input
     id: environment-version
     attributes:
