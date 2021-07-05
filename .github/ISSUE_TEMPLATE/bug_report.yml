@@ -82,6 +82,7 @@ body:
   - type: input
     id: browser-version
     attributes:
+      label:
       description: If applicable, what browser version(s)?
   - type: markdown
     attributes:
@@ -89,6 +90,7 @@ body:
   - type: input
     id: node-version
     attributes:
+      label:
       description: If applicable, what Node.js / npm version(s)?
   - type: markdown
     attributes: 
@@ -96,6 +98,7 @@ body:
   - type: input
     id: platform
     attributes:
+      label:
       description: If applicable, what operating system(s)?
   - type: checkboxes
     id: checklist
