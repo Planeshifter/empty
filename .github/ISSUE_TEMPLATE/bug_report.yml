@@ -76,20 +76,23 @@ body:
         - Other Browser
     validations:
       required: true
+  - type: markdown
+    value: "### Browser Version" 
   - type: input
     id: browser-version
     attributes:
-      label: "## Browser Version"
       description: If applicable, what browser version(s)?
+  - type: markdown
+    value: "### Node.js / npm Version" 
   - type: input
     id: node-version
     attributes:
-      label: "### Node.js / npm Version"
       description: If applicable, what Node.js / npm version(s)?
+  - type: markdown
+    value: "### Platform" 
   - type: input
     id: platform
     attributes:
-      label: Platform
       description: If applicable, what operating system(s)?
   - type: checkboxes
     id: checklist
