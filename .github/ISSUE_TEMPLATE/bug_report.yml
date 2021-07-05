@@ -62,7 +62,8 @@ body:
   - type: dropdown
     id: environments
     attributes:
-      label: What environments are affected?
+      label: Environments
+      descriptions: What environments are affected?
       multiple: true
       options:
         - N/A
@@ -78,15 +79,18 @@ body:
   - type: input
     id: browser-version
     attributes:
-      label: If applicable, what browser version(s)?
+      label: Browser Version 
+      description: If applicable, what browser version(s)?
   - type: input
     id: node-version
     attributes:
-      label: If applicable, what Node.js / npm version(s)?
+      label: Node.js / npm Version
+      description: If applicable, what Node.js / npm version(s)?
   - type: input
     id: platform
     attributes:
-      label: If applicable, what operating system(s)?
+      label: Platform
+      description: If applicable, what operating system(s)?
   - type: checkboxes
     id: checklist
     attributes:
