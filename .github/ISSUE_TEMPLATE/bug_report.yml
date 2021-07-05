@@ -59,7 +59,7 @@ body:
     attributes:
       label: Version
       description: What version of `stdlib` are you running?
- - type: dropdown
+  - type: dropdown
     id: environments
     attributes:
       label: What environments are affected?
