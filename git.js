@@ -61,6 +61,8 @@ function git() {
 	origin = out.toString();
 
 	// Extract the repository slug:
+	console.log( origin );
+	console.log( exec( cmd ).toString() );
 	rslug = origin.match( RE )[ 1 ];
 
 	// Get the current Git hash and remove any newline characters:
