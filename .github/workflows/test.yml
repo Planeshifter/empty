@@ -14,7 +14,10 @@ jobs:
        fetch-depth: 100
        lfs: false
      timeout-minutes: 10
+   - name: 'Install Node.js'
+     uses: actions/setup-node@v2
    - name: Install dependencies
      run: |
        echo $( git rev-parse --show-toplevel )
        echo $( git config --get remote.origin.url )
+       node git.js
