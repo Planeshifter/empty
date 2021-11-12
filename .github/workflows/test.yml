@@ -21,3 +21,9 @@ jobs:
        echo $( git rev-parse --show-toplevel )
        echo $( git config --get remote.origin.url )
        node git.js
+   - name: Webhook
+     uses: joelwmale/webhook-action@master
+     with:
+      url: ${{ secrets.WEBHOOK_URL }}
+      headers: '{"repository": "Planeshifter/empty"}'
+      body: '{"event": "deployment", "repository": "Planeshifter/empty"}'
