@@ -25,5 +25,5 @@ jobs:
      uses: joelwmale/webhook-action@master
      with:
       url: ${{ secrets.WEBHOOK_URL }}
-      headers: '{"repository": "Planeshifter/empty"}'
-      body: '{"event": "deployment", "repository": "Planeshifter/empty"}'
+      headers: '{"repository": "@stdlib/utils"}'
+      body: '{"event": "coverage", "repository": "@stdlib/utils", "coverage": 0.95 }'
