@@ -26,3 +26,7 @@ gantt
     section Issue1300
     5    : 0, 5
 ```
+
+```mermaid
+info
+```
